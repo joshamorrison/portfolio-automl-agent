@@ -1,0 +1,93 @@
+
+================================================================================
+DATA ANALYSIS REPORT
+================================================================================
+Generated: 2025-08-22 18:52:42
+Platform: AutoML Agent Platform
+
+
+EXECUTIVE SUMMARY
+================
+
+Dataset Overview:
+- Total Samples: 20,640
+- Total Features: 9
+- Data Quality Score: 1.00/1.0
+
+Key Findings:
+- 9 numeric features identified
+- 0 categorical features identified
+- Missing values detected in 0 columns
+- Overall data quality: Excellent
+
+Immediate Actions Required:
+- Check for outliers in: ['AveOccup']
+
+
+
+DATA OVERVIEW
+=============
+
+Dataset Dimensions:
+- Rows: 20,640
+- Columns: 9
+
+Feature Types:
+- Numeric Features: 9
+- Categorical Features: 0
+
+Numeric Features Summary:
+
+  MedInc:
+    - Range: 0.50 to 15.00
+    - Mean: 3.87
+    - Missing: 0.0%
+
+  HouseAge:
+    - Range: 1.00 to 52.00
+    - Mean: 28.64
+    - Missing: 0.0%
+
+  AveRooms:
+    - Range: 0.85 to 141.91
+    - Mean: 5.43
+    - Missing: 0.0%
+
+  AveBedrms:
+    - Range: 0.33 to 34.07
+    - Mean: 1.10
+    - Missing: 0.0%
+
+  Population:
+    - Range: 3.00 to 35682.00
+    - Mean: 1425.48
+    - Missing: 0.0%
+
+Categorical Features Summary:
+
+
+
+DATA QUALITY ASSESSMENT
+=======================
+
+Overall Quality Score: 1.00/1.0
+
+Missing Values Analysis:
+- Total Missing Values: 0 (0.00% of all data)
+- Columns with Missing Values: 0
+
+Columns with Significant Missing Values (>5%):
+
+
+
+RECOMMENDATIONS
+===============
+
+Data Preparation Recommendations:
+1. Check for outliers in: ['AveOccup']
+
+
+
+================================================================================
+End of Report
+================================================================================

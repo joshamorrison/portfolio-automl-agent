@@ -1,0 +1,118 @@
+
+================================================================================
+DATA ANALYSIS REPORT
+================================================================================
+Generated: 2025-08-22 17:58:44
+Platform: AutoML Agent Platform
+
+
+EXECUTIVE SUMMARY
+================
+
+Dataset Overview:
+- Total Samples: 7,032
+- Total Features: 21
+- Data Quality Score: 1.00/1.0
+
+Key Findings:
+- 5 numeric features identified
+- 16 categorical features identified
+- Missing values detected in 0 columns
+- Overall data quality: Excellent
+
+Immediate Actions Required:
+- High cardinality categorical columns may need encoding: ['customerID']
+
+
+
+DATA OVERVIEW
+=============
+
+Dataset Dimensions:
+- Rows: 7,032
+- Columns: 21
+
+Feature Types:
+- Numeric Features: 5
+- Categorical Features: 16
+
+Numeric Features Summary:
+
+  SeniorCitizen:
+    - Range: 0.00 to 1.00
+    - Mean: 0.16
+    - Missing: 0.0%
+
+  tenure:
+    - Range: 1.00 to 72.00
+    - Mean: 32.42
+    - Missing: 0.0%
+
+  MonthlyCharges:
+    - Range: 18.25 to 118.75
+    - Mean: 64.80
+    - Missing: 0.0%
+
+  TotalCharges:
+    - Range: 18.80 to 8684.80
+    - Mean: 2283.30
+    - Missing: 0.0%
+
+  customer_churn:
+    - Range: 0.00 to 1.00
+    - Mean: 0.27
+    - Missing: 0.0%
+
+Categorical Features Summary:
+
+  customerID:
+    - Unique Values: 7032
+    - Cardinality: high
+    - Missing: 0.0%
+
+  gender:
+    - Unique Values: 2
+    - Cardinality: low
+    - Missing: 0.0%
+
+  Partner:
+    - Unique Values: 2
+    - Cardinality: low
+    - Missing: 0.0%
+
+  Dependents:
+    - Unique Values: 2
+    - Cardinality: low
+    - Missing: 0.0%
+
+  PhoneService:
+    - Unique Values: 2
+    - Cardinality: low
+    - Missing: 0.0%
+
+
+
+DATA QUALITY ASSESSMENT
+=======================
+
+Overall Quality Score: 1.00/1.0
+
+Missing Values Analysis:
+- Total Missing Values: 0 (0.00% of all data)
+- Columns with Missing Values: 0
+
+Columns with Significant Missing Values (>5%):
+
+
+
+RECOMMENDATIONS
+===============
+
+Data Preparation Recommendations:
+1. High cardinality categorical columns may need encoding: ['customerID']
+
+
+
+================================================================================
+End of Report
+================================================================================

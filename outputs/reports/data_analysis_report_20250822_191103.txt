@@ -1,0 +1,93 @@
+
+================================================================================
+DATA ANALYSIS REPORT
+================================================================================
+Generated: 2025-08-22 19:11:03
+Platform: AutoML Agent Platform
+
+
+EXECUTIVE SUMMARY
+================
+
+Dataset Overview:
+- Total Samples: 7,032
+- Total Features: 21
+- Data Quality Score: 1.00/1.0
+
+Key Findings:
+- 21 numeric features identified
+- 0 categorical features identified
+- Missing values detected in 0 columns
+- Overall data quality: Excellent
+
+Immediate Actions Required:
+- Found 22 duplicate rows
+
+
+
+DATA OVERVIEW
+=============
+
+Dataset Dimensions:
+- Rows: 7,032
+- Columns: 21
+
+Feature Types:
+- Numeric Features: 21
+- Categorical Features: 0
+
+Numeric Features Summary:
+
+  customerID:
+    - Range: 0.00 to 50.00
+    - Mean: 49.82
+    - Missing: 0.0%
+
+  gender:
+    - Range: 0.00 to 1.00
+    - Mean: 0.50
+    - Missing: 0.0%
+
+  SeniorCitizen:
+    - Range: 0.00 to 1.00
+    - Mean: 0.16
+    - Missing: 0.0%
+
+  Partner:
+    - Range: 0.00 to 1.00
+    - Mean: 0.48
+    - Missing: 0.0%
+
+  Dependents:
+    - Range: 0.00 to 1.00
+    - Mean: 0.30
+    - Missing: 0.0%
+
+Categorical Features Summary:
+
+
+
+DATA QUALITY ASSESSMENT
+=======================
+
+Overall Quality Score: 1.00/1.0
+
+Missing Values Analysis:
+- Total Missing Values: 0 (0.00% of all data)
+- Columns with Missing Values: 0
+
+Columns with Significant Missing Values (>5%):
+
+
+
+RECOMMENDATIONS
+===============
+
+Data Preparation Recommendations:
+1. Found 22 duplicate rows
+
+
+
+================================================================================
+End of Report
+================================================================================
